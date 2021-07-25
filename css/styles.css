@@ -133,6 +133,7 @@ body {
 .carousel-item {
   height: 32rem;
 }
+
 .carousel-item > img {
   position: absolute;
   top: -384px;
@@ -141,7 +142,6 @@ body {
   height: auto;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -188,6 +188,17 @@ body {
 
   .featurette-heading {
     font-size: 50px;
+  }
+}
+@media (max-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-item > img {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    width: 1000px;
+    height: auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
   }
 }
   
